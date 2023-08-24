@@ -8,12 +8,12 @@ function EstateHomePage() {
         <section role="ribbon" className="bg-primary text-white">
           <div className="container">
             <section className="row py-1 align-items-center">
-              <div className="col-sm-6">
+              <div className="col-sm-6 bg-secondary">
                 <p>Rezilla, 18 Gratton St. Brookyln</p>
               </div>
-              <div className="col-sm-6 row text-end">
-                <p className="col">+1 206-214-2298</p>
-                <p className="col">support@rezilla.com</p>
+              <div className="col-sm-6 bg-danger d-flex text-end">
+                <p className="me-4">+1 206-214-2298</p>
+                <p className="">support@rezilla.com</p>
               </div>
             </section>
           </div>

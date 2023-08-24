@@ -1,19 +1,28 @@
+import { Container, Row, Col } from "react-bootstrap";
 import "./styles.scss";
-// import * as bootstrap from "bootstrap";
 
 function EstateHomePage() {
   return (
     <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <p>
-          Edit <code>src/EstateHomePage.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-      <buttton className="btn btn-primary">Click me</buttton>
+      <header className="hero-bg">
+        <section role="ribbon" className="bg-primary text-white">
+          <Container>
+            <Row>
+              <Col xs sm={6}>
+                <p className="p-2">Rezilla, 18 Gratton St. Brookyln</p>
+              </Col>
+
+              <Col sm="auto">
+                <p className="p-2 text-end">+1 206-214-2298</p>
+              </Col>
+
+              <Col>
+                <p className="p-2 text-end">support@rezilla.com</p>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+      </header>
     </>
   );
 }

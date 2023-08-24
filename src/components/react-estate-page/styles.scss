@@ -4,3 +4,8 @@ $theme-colors: (
 );
 
 @import "bootstrap/scss/bootstrap";
+
+.hero-bg {
+  background: url("/hero-bg-linear-fade.svg") no-repeat center center fixed;
+  background-size: contain;
+}
