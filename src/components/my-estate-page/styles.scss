@@ -1,0 +1,22 @@
+$theme-colors: (
+  "primary": #3a0ca3,
+  "secondary": #4361ee,
+);
+
+@import "bootstrap/scss/bootstrap";
+
+.hero-bg {
+  background: url("/hero-bg-linear-fade.svg") no-repeat center center fixed;
+  background-size: contain;
+}
+
+.nav-link {
+  border-radius: var(--bs-border-radius-pill);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background-color: map-get($theme-colors, "primary");
+  border-radius: var(--bs-border-radius-pill);
+  // color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
